@@ -1,195 +1,71 @@
-[19:52:31] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[19:52:31] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[19:52:31] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:52:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[19:52:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:52:38] [ServerMain/INFO]: Loaded 1290 recipes
-[19:52:38] [ServerMain/INFO]: Loaded 1399 advancements
-[19:52:38] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[19:52:38] [Server thread/INFO]: Loading properties
-[19:52:38] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[19:52:39] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:52:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:52:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:52:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[19:52:40] [Server thread/INFO]: Default game type: SURVIVAL
-[19:52:40] [Server thread/INFO]: Generating keypair
-[19:52:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:52:40] [Server thread/INFO]: Using epoll channel type
-[19:52:40] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:52:40] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[19:52:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:52:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:52:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:52:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:52:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:52:40] [Server thread/INFO]: Preparing level "world"
-[19:52:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:52:42] [Server thread/INFO]: Time elapsed: 1504 ms
-[19:52:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:52:42] [Server thread/INFO]: Time elapsed: 198 ms
-[19:52:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:52:43] [Server thread/INFO]: Time elapsed: 163 ms
-[19:52:43] [Server thread/INFO]: [spark] Starting background profiler...
-[19:52:43] [Server thread/INFO]: Done preparing level "world" (2.583s)
-[19:52:43] [Server thread/INFO]: Running delayed init tasks
-[19:52:43] [Server thread/INFO]: Done (12.412s)! For help, type "help"
-[19:52:43] [Server thread/INFO]: Timings Reset
-[19:52:45] [User Authenticator #0/INFO]: UUID of player Tigre_Severo is 096d83e0-2d7c-3114-b1a8-dce63a2217d2
-[19:52:46] [Server thread/INFO]: Tigre_Severo joined the game
-[19:52:47] [Server thread/INFO]: Tigre_Severo[/127.199.54.170:35803] logged in with entity id 45 at ([world]-18.30739712282872, 136.0, -21.877029311307055)
-[19:53:26] [Server thread/INFO]: Tigre_Severo has made the advancement [Monster Hunter]
-[19:54:26] [Server thread/INFO]: Made Tigre_Severo a server operator
-[19:55:34] [Server thread/INFO]: Tigre_Severo issued server command: /gamemode creative
-[19:55:34] [Server thread/INFO]: [Tigre_Severo: Set own game mode to Creative Mode]
-[19:56:02] [Server thread/INFO]: Tigre_Severo issued server command: /kill Tigre_Severo
-[19:56:02] [Server thread/INFO]: Tigre_Severo was killed
-[19:56:02] [Server thread/INFO]: [Tigre_Severo: Killed Tigre_Severo]
-[19:56:37] [Paper Common Worker #0/ERROR]: Failed to fetch mob spawner entity at (-209, -8, 411)
-[19:57:18] [Server thread/INFO]: Tigre_Severo issued server command: /gamemode survival
-[19:57:18] [Server thread/INFO]: [Tigre_Severo: Set own game mode to Survival Mode]
-[19:58:01] [Server thread/INFO]: Tigre_Severo issued server command: /gamemode creative
-[19:58:01] [Server thread/INFO]: [Tigre_Severo: Set own game mode to Creative Mode]
-[20:02:58] [Server thread/INFO]: Tigre_Severo issued server command: /fill 6 127 -20
-[20:03:42] [Server thread/INFO]: Tigre_Severo issued server command: /fill -16 134 -15
-[20:04:17] [Server thread/INFO]: Tigre_Severo issued server command: /fill -16 134 -15 11 120 21 minecraft:air
-[20:04:17] [Server thread/INFO]: [Tigre_Severo: Successfully filled 6560 block(s)]
-[20:05:21] [Server thread/INFO]: Tigre_Severo issued server command: /fill -37 139 -56
-[20:05:58] [Server thread/INFO]: Tigre_Severo issued server command: /fill -37 139 -56 12 120 22 minecraft:air
-[20:06:31] [Server thread/INFO]: Tigre_Severo issued server command: /fill 11 120 -16
-[20:06:49] [Server thread/INFO]: Tigre_Severo issued server command: /fill 11 120 -16 -16 120 22 minecraft:white_concrete
-[20:06:49] [Server thread/INFO]: [Tigre_Severo: Successfully filled 1092 block(s)]
-[20:07:44] [Server thread/INFO]: Tigre_Severo issued server command: /fill 11 131 -16
-[20:08:02] [Server thread/INFO]: Tigre_Severo issued server command: /fill 11 131 -16 -17 121 -16 minecraft:white_concrete
-[20:08:02] [Server thread/INFO]: [Tigre_Severo: Successfully filled 319 block(s)]
-[20:09:17] [Server thread/INFO]: Tigre_Severo issued server command: /fill -17 133 -16
-[20:09:35] [Server thread/INFO]: Tigre_Severo issued server command: /fill -17 133 -16 -17 121 22 minecraft:white_concrete
-[20:09:35] [Server thread/INFO]: [Tigre_Severo: Successfully filled 496 block(s)]
-[20:10:05] [Server thread/INFO]: Tigre_Severo issued server command: /fill -17 133 22
-[20:10:20] [Server thread/INFO]: Tigre_Severo issued server command: /fill -17 133 22 12 121 22 minecraft:white_concrete
-[20:10:20] [Server thread/INFO]: [Tigre_Severo: Successfully filled 377 block(s)]
-[20:10:41] [Server thread/INFO]: Tigre_Severo issued server command: /fill 11 133 22
-[20:10:58] [Server thread/INFO]: Tigre_Severo issued server command: /fill 11 133 22 11 121 -16 minecraft:white_concrete
-[20:10:58] [Server thread/INFO]: [Tigre_Severo: Successfully filled 481 block(s)]
-[20:14:44] [Server thread/INFO]: Tigre_Severo issued server command: /fill 9 135 -14
-[20:15:05] [Server thread/INFO]: Tigre_Severo issued server command: /fill 9 135 -14 -15 135 -14 minecraft:purple_concrete
-[20:15:05] [Server thread/INFO]: [Tigre_Severo: Successfully filled 23 block(s)]
-[20:15:21] [Server thread/INFO]: Tigre_Severo issued server command: /fill -15 135 -14
-[20:15:34] [Server thread/INFO]: Tigre_Severo issued server command: /fill -15 135 -14 -15 135 20 minecraft:purple_concrete
-[20:15:34] [Server thread/INFO]: [Tigre_Severo: Successfully filled 33 block(s)]
-[20:16:00] [Server thread/INFO]: Tigre_Severo issued server command: /fill -14 136 19
-[20:16:37] [Server thread/INFO]: Tigre_Severo issued server command: /fill -14 136 19 8 136 19 minecraft:green_concrete
-[20:16:37] [Server thread/INFO]: [Tigre_Severo: Successfully filled 23 block(s)]
-[20:17:13] [Server thread/INFO]: Tigre_Severo issued server command: /fill -14 136 19
-[20:17:29] [Server thread/INFO]: Tigre_Severo issued server command: /fill -14 136 19 8 136 19 minecraft:lime_concrete
-[20:17:29] [Server thread/INFO]: [Tigre_Severo: Successfully filled 21 block(s)]
-[20:17:38] [Server thread/INFO]: Tigre_Severo issued server command: /fill 8 136 19
-[20:17:54] [Server thread/INFO]: Tigre_Severo issued server command: /fill 8 136 19 8 136 -13 minecraft:lime_concrete
-[20:17:54] [Server thread/INFO]: [Tigre_Severo: Successfully filled 31 block(s)]
-[20:18:07] [Server thread/INFO]: Tigre_Severo issued server command: /fill 8 136 -13
-[20:18:21] [Server thread/INFO]: Tigre_Severo issued server command: /fill 8 136 -13 -14 136 -13 minecraft:lime_concrete
-[20:18:21] [Server thread/INFO]: [Tigre_Severo: Successfully filled 21 block(s)]
-[20:18:30] [Server thread/INFO]: Tigre_Severo issued server command: /fill -14 136 -13
-[20:18:43] [Server thread/INFO]: Tigre_Severo issued server command: /fill -14 136 -13 -14 136 19 minecraft:lime_concrete
-[20:18:43] [Server thread/INFO]: [Tigre_Severo: Successfully filled 31 block(s)]
-[20:21:38] [Server thread/INFO]: Tigre_Severo issued server command: /fill -13 137 18
-[20:21:53] [Server thread/INFO]: Tigre_Severo issued server command: /fill -13 137 18 7 137 18 minecraft:yellow_concrete
-[20:21:53] [Server thread/INFO]: [Tigre_Severo: Successfully filled 19 block(s)]
-[20:22:00] [Server thread/INFO]: Tigre_Severo issued server command: /fill 7 137 18
-[20:22:16] [Server thread/INFO]: Tigre_Severo issued server command: /fill 7 137 18 7 137 -12 minecraft:yellow_concrete
-[20:22:16] [Server thread/INFO]: [Tigre_Severo: Successfully filled 29 block(s)]
-[20:22:29] [Server thread/INFO]: Tigre_Severo issued server command: /fill 7 137 -12
-[20:22:44] [Server thread/INFO]: Tigre_Severo issued server command: /fill 7 137 -12 -13 137 -12 minecraft:yellow_concrete
-[20:22:44] [Server thread/INFO]: [Tigre_Severo: Successfully filled 19 block(s)]
-[20:22:51] [Server thread/INFO]: Tigre_Severo issued server command: /fill -13 137 -12
-[20:23:05] [Server thread/INFO]: Tigre_Severo issued server command: /fill -13 137 -12 -13 137 18 minecraft:yellow_concrete
-[20:23:05] [Server thread/INFO]: [Tigre_Severo: Successfully filled 29 block(s)]
-[20:23:37] [Server thread/INFO]: Tigre_Severo issued server command: /fill -12 138 17
-[20:23:54] [Server thread/INFO]: Tigre_Severo issued server command: /fill -12 138 17 6 138 17 minecraft:blue_concrete
-[20:23:54] [Server thread/INFO]: [Tigre_Severo: Successfully filled 19 block(s)]
-[20:24:06] [Server thread/INFO]: Tigre_Severo issued server command: /fill 6 138 17
-[20:24:18] [Server thread/INFO]: Tigre_Severo issued server command: /fill 6 138 17 6 138 -12 minecraft:blue_concrete
-[20:24:18] [Server thread/INFO]: [Tigre_Severo: Successfully filled 29 block(s)]
-[20:24:26] [Server thread/INFO]: Tigre_Severo issued server command: /fill 6 138 -11
-[20:24:37] [Server thread/INFO]: Tigre_Severo issued server command: /fill 6 138 -11 -12 138 -11 minecraft:blue_concrete
-[20:24:37] [Server thread/INFO]: [Tigre_Severo: Successfully filled 18 block(s)]
-[20:24:46] [Server thread/INFO]: Tigre_Severo issued server command: /fill -12 138 -11
-[20:25:01] [Server thread/INFO]: Tigre_Severo issued server command: /fill -12 138 -11 -12 138 17 minecraft:blue_concrete
-[20:25:01] [Server thread/INFO]: [Tigre_Severo: Successfully filled 27 block(s)]
-[20:25:23] [Server thread/INFO]: Tigre_Severo issued server command: /fill -11 139 16
-[20:25:39] [Server thread/INFO]: Tigre_Severo issued server command: /fill -11 139 16 5 139 16 minecraft:magenta_concrete
-[20:25:39] [Server thread/INFO]: [Tigre_Severo: Successfully filled 15 block(s)]
-[20:25:46] [Server thread/INFO]: Tigre_Severo issued server command: /fill 5 139 16
-[20:25:58] [Server thread/INFO]: Tigre_Severo issued server command: /fill 5 139 16 5 139 -10 minecraft:magenta_concrete
-[20:25:58] [Server thread/INFO]: [Tigre_Severo: Successfully filled 25 block(s)]
-[20:26:04] [Server thread/INFO]: Tigre_Severo issued server command: /fill 5 139 -10
-[20:26:18] [Server thread/INFO]: Tigre_Severo issued server command: /fill 5 139 -10 -11 139 -10 minecraft:magenta_concrete
-[20:26:18] [Server thread/INFO]: [Tigre_Severo: Successfully filled 15 block(s)]
-[20:26:25] [Server thread/INFO]: Tigre_Severo issued server command: /fill -11 139 -10
-[20:26:36] [Server thread/INFO]: Tigre_Severo issued server command: /fill -11 139 -10 -11 139 16 minecraft:magenta_concrete
-[20:26:36] [Server thread/INFO]: [Tigre_Severo: Successfully filled 25 block(s)]
-[20:27:10] [Server thread/INFO]: Tigre_Severo issued server command: /fill 4 139 15
-[20:27:28] [Server thread/INFO]: Tigre_Severo issued server command: /fill 4 139 15 -10 139 -9 minecraft:black_concrete
-[20:27:28] [Server thread/INFO]: [Tigre_Severo: Successfully filled 375 block(s)]
-[20:51:19] [Server thread/INFO]: Tigre_Severo issued server command: /fill 4 121 -1
-[20:51:36] [Server thread/INFO]: Tigre_Severo issued server command: /fill 4 121 -1 -10 132 -15 minecraft:red_concrete
-[20:51:37] [Server thread/INFO]: [Tigre_Severo: Successfully filled 2700 block(s)]
-[20:53:20] [Server thread/INFO]: Tigre_Severo issued server command: /fill -4 132 -13
-[20:53:34] [Server thread/INFO]: Tigre_Severo issued server command: /fill -4 132 -13 -2 132 -1 minecraft:black_concrete
-[20:53:34] [Server thread/INFO]: [Tigre_Severo: Successfully filled 33 block(s)]
-[20:54:12] [Server thread/INFO]: Tigre_Severo issued server command: /fill -10 126 -1
-[20:54:26] [Server thread/INFO]: Tigre_Severo issued server command: /fill -10 126 -1 4 128 -1 minecraft:black_concrete
-[20:54:26] [Server thread/INFO]: [Tigre_Severo: Successfully filled 35 block(s)]
-[20:54:58] [Server thread/INFO]: Tigre_Severo issued server command: /fill -10 126 -1 -10 128 -15 minecraft:black_concrete
-[20:54:58] [Server thread/INFO]: [Tigre_Severo: Successfully filled 42 block(s)]
-[20:56:40] [Server thread/INFO]: Tigre_Severo issued server command: /fill -9 121 -2
-[20:56:57] [Server thread/INFO]: Tigre_Severo issued server command: /fill -9 121 -2 4 131 -15 minecraft:air
-[20:56:57] [Server thread/INFO]: [Tigre_Severo: Successfully filled 2154 block(s)]
-[20:57:15] [Server thread/INFO]: Tigre_Severo issued server command: /fill 4 121 -1
-[20:57:33] [Server thread/INFO]: Tigre_Severo issued server command: /fill 4 121 -1 4 132 -15 minecraft:red_concrete
-[20:57:33] [Server thread/INFO]: [Tigre_Severo: Successfully filled 157 block(s)]
-[20:57:49] [Server thread/INFO]: Tigre_Severo issued server command: /fill -10 121 -15
-[20:57:59] [Server thread/INFO]: Tigre_Severo issued server command: /fill -10 121 -15 3 131 -15 minecraft:red_concrete
-[20:57:59] [Server thread/INFO]: [Tigre_Severo: Successfully filled 145 block(s)]
-[20:58:11] [Server thread/INFO]: Tigre_Severo issued server command: /fill -4 131 -15
-[20:58:24] [Server thread/INFO]: Tigre_Severo issued server command: /fill -4 131 -15 -2 121 -15 minecraft:black_concrete
-[20:58:24] [Server thread/INFO]: [Tigre_Severo: Successfully filled 33 block(s)]
-[20:59:03] [Server thread/INFO]: Tigre_Severo issued server command: /fill 4 132 -1
-[20:59:19] [Server thread/INFO]: Tigre_Severo issued server command: /fill 4 132 -1 -10 121 -15 minecraft:air
-[20:59:19] [Server thread/INFO]: [Tigre_Severo: Successfully filled 836 block(s)]
-[21:01:06] [Server thread/INFO]: Tigre_Severo issued server command: /give Tigre_Severo minecraft:command_block
-[21:01:06] [Server thread/INFO]: [Tigre_Severo: Gave 1 [Command Block] to Tigre_Severo]
-[21:01:57] [Server thread/INFO]: Tigre_Severo issued server command: /give @p deny
-[21:03:32] [Server thread/INFO]: Tigre_Severo issued server command: /gamerule doTileDrops false
-[21:03:32] [Server thread/INFO]: [Tigre_Severo: Gamerule doTileDrops is now set to: false]
-[21:03:45] [Server thread/INFO]: Tigre_Severo issued server command: /gamemode survival
-[21:03:45] [Server thread/INFO]: [Tigre_Severo: Set own game mode to Survival Mode]
-[21:04:18] [Server thread/INFO]: Tigre_Severo issued server command: /gamemode creative
-[21:04:18] [Server thread/INFO]: [Tigre_Severo: Set own game mode to Creative Mode]
-[21:06:23] [Server thread/INFO]: Unknown item 'minecraft:deny'
-give @p deny<--[HERE]
-[21:06:29] [Server thread/INFO]: Stopping the server
-[21:06:29] [Server thread/INFO]: Stopping server
-[21:06:30] [Server thread/INFO]: Saving players
-[21:06:30] [Server thread/INFO]: Tigre_Severo lost connection: Server closed
-[21:06:30] [Server thread/INFO]: Tigre_Severo left the game
-[21:06:30] [Server thread/INFO]: Saving worlds
-[21:06:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:06:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:06:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:06:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:06:32] [Server thread/INFO]: [ChunkHolderManager] Saved 2707 block chunks, 527 entity chunks, 3 poi chunks in world 'world' in 2.06s
-[21:06:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:06:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:06:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:06:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:06:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[21:06:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:06:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:06:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:06:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:06:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[21:06:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:06:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:06:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:06:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:07:47] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[21:07:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[21:07:47] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:07:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[21:07:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:07:54] [ServerMain/INFO]: Loaded 1290 recipes
+[21:07:54] [ServerMain/INFO]: Loaded 1399 advancements
+[21:07:54] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[21:07:54] [Server thread/INFO]: Loading properties
+[21:07:54] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[21:07:55] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:07:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:07:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:07:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[21:07:56] [Server thread/INFO]: Default game type: SURVIVAL
+[21:07:56] [Server thread/INFO]: Generating keypair
+[21:07:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:07:56] [Server thread/INFO]: Using epoll channel type
+[21:07:56] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:07:56] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:07:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:07:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:07:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:07:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:07:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:07:56] [Server thread/INFO]: Preparing level "world"
+[21:07:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:07:58] [Server thread/INFO]: Time elapsed: 1531 ms
+[21:07:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:07:58] [Server thread/INFO]: Time elapsed: 201 ms
+[21:07:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:07:58] [Server thread/INFO]: Time elapsed: 196 ms
+[21:07:58] [Server thread/INFO]: [spark] Starting background profiler...
+[21:07:59] [Server thread/INFO]: Done preparing level "world" (2.609s)
+[21:07:59] [Server thread/INFO]: Running delayed init tasks
+[21:07:59] [Server thread/INFO]: Done (12.976s)! For help, type "help"
+[21:07:59] [Server thread/INFO]: Timings Reset
+[21:08:10] [User Authenticator #0/INFO]: UUID of player Tigre_Severo is 096d83e0-2d7c-3114-b1a8-dce63a2217d2
+[21:08:11] [Server thread/INFO]: Tigre_Severo joined the game
+[21:08:11] [Server thread/INFO]: Tigre_Severo[/127.199.54.170:51575] logged in with entity id 59 at ([world]0.4461351419652969, 121.0, 10.409711346821336)
+[21:09:42] [Server thread/INFO]: [@: Set Tigre_Severo's game mode to Adventure Mode]
+[21:10:14] [Server thread/INFO]: Tigre_Severo issued server command: /gamemode creative
+[21:10:14] [Server thread/INFO]: [Tigre_Severo: Set own game mode to Creative Mode]
+[21:11:00] [Server thread/INFO]: [@: Set Tigre_Severo's game mode to Adventure Mode]
+[21:11:10] [Server thread/INFO]: Tigre_Severo issued server command: /spawnpoint
+[21:11:10] [Server thread/INFO]: [Tigre_Severo: Set spawn point to -2, 121, 21 [0.0] in minecraft:overworld for Tigre_Severo]
+[21:11:29] [Server thread/INFO]: Tigre_Severo lost connection: Disconnected
+[21:11:29] [Server thread/INFO]: Tigre_Severo left the game
+[21:11:34] [Server thread/INFO]: Stopping the server
+[21:11:34] [Server thread/INFO]: Stopping server
+[21:11:34] [Server thread/INFO]: Saving players
+[21:11:35] [Server thread/INFO]: Saving worlds
+[21:11:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:11:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:11:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:11:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Saved 4818 block chunks, 3864 entity chunks, 0 poi chunks in world 'world' in 8.27s
+[21:11:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
+[21:11:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[21:11:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:11:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:11:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:11:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
