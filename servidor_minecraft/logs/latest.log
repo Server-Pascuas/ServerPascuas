@@ -50,3 +50,24 @@
 [19:57:18] [Server thread/INFO]: [Tigre_Severo: Set own game mode to Survival Mode]
 [19:58:01] [Server thread/INFO]: Tigre_Severo issued server command: /gamemode creative
 [19:58:01] [Server thread/INFO]: [Tigre_Severo: Set own game mode to Creative Mode]
+[20:02:58] [Server thread/INFO]: Tigre_Severo issued server command: /fill 6 127 -20
+[20:03:42] [Server thread/INFO]: Tigre_Severo issued server command: /fill -16 134 -15
+[20:04:17] [Server thread/INFO]: Tigre_Severo issued server command: /fill -16 134 -15 11 120 21 minecraft:air
+[20:04:17] [Server thread/INFO]: [Tigre_Severo: Successfully filled 6560 block(s)]
+[20:05:21] [Server thread/INFO]: Tigre_Severo issued server command: /fill -37 139 -56
+[20:05:58] [Server thread/INFO]: Tigre_Severo issued server command: /fill -37 139 -56 12 120 22 minecraft:air
+[20:06:31] [Server thread/INFO]: Tigre_Severo issued server command: /fill 11 120 -16
+[20:06:49] [Server thread/INFO]: Tigre_Severo issued server command: /fill 11 120 -16 -16 120 22 minecraft:white_concrete
+[20:06:49] [Server thread/INFO]: [Tigre_Severo: Successfully filled 1092 block(s)]
+[20:07:44] [Server thread/INFO]: Tigre_Severo issued server command: /fill 11 131 -16
+[20:08:02] [Server thread/INFO]: Tigre_Severo issued server command: /fill 11 131 -16 -17 121 -16 minecraft:white_concrete
+[20:08:02] [Server thread/INFO]: [Tigre_Severo: Successfully filled 319 block(s)]
+[20:09:17] [Server thread/INFO]: Tigre_Severo issued server command: /fill -17 133 -16
+[20:09:35] [Server thread/INFO]: Tigre_Severo issued server command: /fill -17 133 -16 -17 121 22 minecraft:white_concrete
+[20:09:35] [Server thread/INFO]: [Tigre_Severo: Successfully filled 496 block(s)]
+[20:10:05] [Server thread/INFO]: Tigre_Severo issued server command: /fill -17 133 22
+[20:10:20] [Server thread/INFO]: Tigre_Severo issued server command: /fill -17 133 22 12 121 22 minecraft:white_concrete
+[20:10:20] [Server thread/INFO]: [Tigre_Severo: Successfully filled 377 block(s)]
+[20:10:41] [Server thread/INFO]: Tigre_Severo issued server command: /fill 11 133 22
+[20:10:58] [Server thread/INFO]: Tigre_Severo issued server command: /fill 11 133 22 11 121 -16 minecraft:white_concrete
+[20:10:58] [Server thread/INFO]: [Tigre_Severo: Successfully filled 481 block(s)]
