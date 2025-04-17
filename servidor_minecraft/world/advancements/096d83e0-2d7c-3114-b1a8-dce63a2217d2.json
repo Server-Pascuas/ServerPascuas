@@ -1,13 +1,21 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2025-04-17 23:33:02 +0000"
+      "unlock_right_away": "2025-04-17 23:46:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-04-17 23:47:41 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:snowy_slopes": "2025-04-17 23:33:03 +0000"
+      "minecraft:taiga": "2025-04-17 23:46:26 +0000",
+      "minecraft:meadow": "2025-04-17 23:46:55 +0000",
+      "minecraft:birch_forest": "2025-04-17 23:46:02 +0000"
     },
     "done": false
   },
