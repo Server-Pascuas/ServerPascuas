@@ -1,71 +1,35 @@
-[21:07:47] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[21:07:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[21:07:47] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:07:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[21:07:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:07:54] [ServerMain/INFO]: Loaded 1290 recipes
-[21:07:54] [ServerMain/INFO]: Loaded 1399 advancements
-[21:07:54] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[21:07:54] [Server thread/INFO]: Loading properties
-[21:07:54] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[21:07:55] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:07:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:07:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:07:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[21:07:56] [Server thread/INFO]: Default game type: SURVIVAL
-[21:07:56] [Server thread/INFO]: Generating keypair
-[21:07:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:07:56] [Server thread/INFO]: Using epoll channel type
-[21:07:56] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:07:56] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[21:07:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:07:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:07:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:07:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:07:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:07:56] [Server thread/INFO]: Preparing level "world"
-[21:07:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:07:58] [Server thread/INFO]: Time elapsed: 1531 ms
-[21:07:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:07:58] [Server thread/INFO]: Time elapsed: 201 ms
-[21:07:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:07:58] [Server thread/INFO]: Time elapsed: 196 ms
-[21:07:58] [Server thread/INFO]: [spark] Starting background profiler...
-[21:07:59] [Server thread/INFO]: Done preparing level "world" (2.609s)
-[21:07:59] [Server thread/INFO]: Running delayed init tasks
-[21:07:59] [Server thread/INFO]: Done (12.976s)! For help, type "help"
-[21:07:59] [Server thread/INFO]: Timings Reset
-[21:08:10] [User Authenticator #0/INFO]: UUID of player Tigre_Severo is 096d83e0-2d7c-3114-b1a8-dce63a2217d2
-[21:08:11] [Server thread/INFO]: Tigre_Severo joined the game
-[21:08:11] [Server thread/INFO]: Tigre_Severo[/127.199.54.170:51575] logged in with entity id 59 at ([world]0.4461351419652969, 121.0, 10.409711346821336)
-[21:09:42] [Server thread/INFO]: [@: Set Tigre_Severo's game mode to Adventure Mode]
-[21:10:14] [Server thread/INFO]: Tigre_Severo issued server command: /gamemode creative
-[21:10:14] [Server thread/INFO]: [Tigre_Severo: Set own game mode to Creative Mode]
-[21:11:00] [Server thread/INFO]: [@: Set Tigre_Severo's game mode to Adventure Mode]
-[21:11:10] [Server thread/INFO]: Tigre_Severo issued server command: /spawnpoint
-[21:11:10] [Server thread/INFO]: [Tigre_Severo: Set spawn point to -2, 121, 21 [0.0] in minecraft:overworld for Tigre_Severo]
-[21:11:29] [Server thread/INFO]: Tigre_Severo lost connection: Disconnected
-[21:11:29] [Server thread/INFO]: Tigre_Severo left the game
-[21:11:34] [Server thread/INFO]: Stopping the server
-[21:11:34] [Server thread/INFO]: Stopping server
-[21:11:34] [Server thread/INFO]: Saving players
-[21:11:35] [Server thread/INFO]: Saving worlds
-[21:11:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:11:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:11:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:11:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Saved 4818 block chunks, 3864 entity chunks, 0 poi chunks in world 'world' in 8.27s
-[21:11:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
-[21:11:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:11:43] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
-[21:11:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:11:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:11:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:11:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:40:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:40:50] [ServerMain/WARN]: Missing data pack paper
+[15:40:52] [ServerMain/INFO]: Loaded 1337 recipes
+[15:40:52] [ServerMain/INFO]: Loaded 1448 advancements
+[15:40:52] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[15:40:52] [Server thread/INFO]: Loading properties
+[15:40:52] [Server thread/INFO]: Default game type: SURVIVAL
+[15:40:52] [Server thread/INFO]: Generating keypair
+[15:40:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:40:52] [Server thread/INFO]: Using epoll channel type
+[15:40:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:40:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:40:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:40:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:40:52] [Server thread/INFO]: Preparing level "world"
+[15:40:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:40:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:40:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:40:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:40:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:40:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:40:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:40:56] [Server thread/INFO]: Time elapsed: 3286 ms
+[15:40:56] [Server thread/INFO]: Done (3.570s)! For help, type "help"
+[15:40:59] [Server thread/INFO]: Stopping the server
+[15:40:59] [Server thread/INFO]: Stopping server
+[15:40:59] [Server thread/INFO]: Saving players
+[15:40:59] [Server thread/INFO]: Saving worlds
+[15:41:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:41:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:41:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:41:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:41:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:41:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:41:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
