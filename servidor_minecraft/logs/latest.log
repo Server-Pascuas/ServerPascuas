@@ -1,65 +1,22 @@
-[17Apr2025 23:44:56.248] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[17Apr2025 23:44:56.251] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1
-[17Apr2025 23:44:56.252] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.6 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[17Apr2025 23:44:56.345] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[17Apr2025 23:44:56.443] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/ServerPascuas/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[17Apr2025 23:44:56.632] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[17Apr2025 23:44:57.519] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[17Apr2025 23:44:57.824] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/ServerPascuas/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/ServerPascuas/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/ServerPascuas/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/ServerPascuas/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[17Apr2025 23:44:57.941] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/ServerPascuas/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/ServerPascuas/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/ServerPascuas/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/ServerPascuas/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[17Apr2025 23:45:02.956] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.0.9, for MC 1.21.1 with MCP 20240808.132146
-[17Apr2025 23:45:02.957] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.0.9 Initialized
-[17Apr2025 23:45:02.970] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[17Apr2025 23:45:03.629] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[17Apr2025 23:45:04.118] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 52.0.9 Target: 52.1.0
-[17Apr2025 23:45:04.528] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17Apr2025 23:45:05.199] [main/INFO] [net.minecraft.server.Main/]: No existing world data, creating new world
-[17Apr2025 23:45:05.787] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
-[17Apr2025 23:45:06.001] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
-[17Apr2025 23:45:06.491] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
-[17Apr2025 23:45:06.491] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[17Apr2025 23:45:06.492] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[17Apr2025 23:45:06.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[17Apr2025 23:45:06.580] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[17Apr2025 23:45:06.616] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[17Apr2025 23:45:06.655] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17Apr2025 23:45:06.655] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[17Apr2025 23:45:06.656] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17Apr2025 23:45:06.656] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[17Apr2025 23:45:06.671] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[17Apr2025 23:45:06.672] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
-[17Apr2025 23:45:06.673] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[17Apr2025 23:45:06.673] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[17Apr2025 23:45:06.673] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[17Apr2025 23:45:06.674] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[17Apr2025 23:45:06.674] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[17Apr2025 23:45:06.709] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[17Apr2025 23:45:13.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[17Apr2025 23:45:13.155] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[17Apr2025 23:45:13.659] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[17Apr2025 23:45:14.116] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[17Apr2025 23:45:14.617] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[17Apr2025 23:45:15.116] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[17Apr2025 23:45:15.620] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[17Apr2025 23:45:16.112] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[17Apr2025 23:45:16.616] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[17Apr2025 23:45:17.114] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[17Apr2025 23:45:17.801] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4690 ms
-[17Apr2025 23:45:17.801] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.137s)! For help, type "help"
-[17Apr2025 23:45:17.812] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[17Apr2025 23:46:01.999] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Tigre_Severo[/127.199.54.170:42849] logged in with entity id 13 at (8.5, 79.0, -5.5)
-[17Apr2025 23:46:02.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tigre_Severo joined the game
-[17Apr2025 23:46:40.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Tigre_Severo a server operator
-[17Apr2025 23:46:46.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Set own game mode to Creative Mode]
-[17Apr2025 23:47:04.405] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Tigre_Severo moved too quickly! -7.230226985486372,-0.25973018464746644,-7.206656433644994
-[17Apr2025 23:47:37.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 5501 block(s)]
-[17Apr2025 23:48:21.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 290 block(s)]
-[17Apr2025 23:48:44.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 457 block(s)]
-[17Apr2025 23:49:44.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 690 block(s)]
-[17Apr2025 23:50:20.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 68 block(s)]
-[17Apr2025 23:50:41.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 103 block(s)]
-[17Apr2025 23:51:05.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 215 block(s)]
-[17Apr2025 23:51:41.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 2548 block(s)]
-[17Apr2025 23:52:56.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 25480 block(s)]
-[17Apr2025 23:53:30.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 8 block(s)]
-[17Apr2025 23:53:51.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 21142 block(s)]
+[18Apr2025 00:00:30.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 349 block(s)]
+[18Apr2025 00:00:59.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 195 block(s)]
+[18Apr2025 00:01:18.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 146 block(s)]
+[18Apr2025 00:01:50.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 564 block(s)]
+[18Apr2025 00:04:05.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 2350 block(s)]
+[18Apr2025 00:04:48.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 16450 block(s)]
+[18Apr2025 00:11:04.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: 156 biome entry/entries set between -64, 100, -76 and -20, 100, -28]
+[18Apr2025 00:11:45.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 2448 block(s)]
+[18Apr2025 00:21:34.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 329 block(s)]
+[18Apr2025 00:21:59.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 350 block(s)]
+[18Apr2025 00:22:19.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 329 block(s)]
+[18Apr2025 00:22:49.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 350 block(s)]
+[18Apr2025 00:25:31.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Set the world spawn point to -40, 110, -51 [0.0]]
+[18Apr2025 00:25:55.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Gave 1 [Command Block] to Tigre_Severo]
+[18Apr2025 00:26:44.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Set the world spawn point to -40, 110, -52 [0.0]]
+[18Apr2025 00:29:50.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 288 block(s)]
+[18Apr2025 00:30:18.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Successfully filled 288 block(s)]
+[18Apr2025 00:30:44.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Gave 1 [Lightning Rod] to Tigre_Severo]
+[18Apr2025 00:34:23.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Gave 1 [Command Block] to Tigre_Severo]
+[18Apr2025 00:41:44.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tigre_Severo: Set the world spawn point to -42, 110, -56 [0.0]]
+[18Apr2025 00:43:22.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tigre_Severo has made the advancement [Sneak 100]
+[18Apr2025 00:44:07.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tigre_Severo has made the advancement [Hot Stuff]
